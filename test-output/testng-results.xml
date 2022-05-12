@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="2541" started-at="2022-05-12T16:53:14 BRT" finished-at="2022-05-12T16:53:17 BRT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="2541" started-at="2022-05-12T16:53:14 BRT" finished-at="2022-05-12T16:53:17 BRT">
+      <class name="br.com.icostalima.tasks.apitest.APITest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:br.com.icostalima.tasks.apitest.APITest@67205a84]" name="setup" is-config="true" duration-ms="345" started-at="2022-05-12T16:53:14 BRT" finished-at="2022-05-12T16:53:15 BRT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="deveAdicionarTarefaComSucesso()[pri:0, instance:br.com.icostalima.tasks.apitest.APITest@67205a84]" name="deveAdicionarTarefaComSucesso" duration-ms="1524" started-at="2022-05-12T16:53:15 BRT" finished-at="2022-05-12T16:53:16 BRT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deveAdicionarTarefaComSucesso -->
+        <test-method status="PASS" signature="deveRetornarTarefas()[pri:0, instance:br.com.icostalima.tasks.apitest.APITest@67205a84]" name="deveRetornarTarefas" duration-ms="36" started-at="2022-05-12T16:53:16 BRT" finished-at="2022-05-12T16:53:16 BRT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deveRetornarTarefas -->
+        <test-method status="PASS" signature="naoDeveAdicionarTarefaInvalida()[pri:0, instance:br.com.icostalima.tasks.apitest.APITest@67205a84]" name="naoDeveAdicionarTarefaInvalida" duration-ms="606" started-at="2022-05-12T16:53:16 BRT" finished-at="2022-05-12T16:53:17 BRT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- naoDeveAdicionarTarefaInvalida -->
+      </class> <!-- br.com.icostalima.tasks.apitest.APITest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
